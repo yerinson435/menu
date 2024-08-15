@@ -1,0 +1,66 @@
+:root {
+    --color-fondo: rgb(17, 17, 17);
+    --color-texto: #fff;
+    --color-acento: #0073e6;
+    --fuente-principal: Arial, sans-serif;
+    --tamano-fuente-grande: 1.5em;
+    --tamano-fuente-medio: 1em;
+    --tamano-fuente-pequeno: 0.9em;
+    --altura-icono: 40px; 
+    --color-hover: #ffa500;
+}
+
+body {
+    margin: 0;
+    font-family: var(--fuente-principal);
+    background-color: #1d1d1d;
+}
+
+.menu-de-navegacion {
+    background-color: var(--color-fondo);
+    padding: 10px 20px;
+}
+
+.menu-de-navegacion__contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.menu-de-navegacion__logo {
+    margin-right: 20px;
+}
+
+.menu-de-navegacion__logo-imagen {
+    height: 50px; 
+}
+
+.menu-de-navegacion__enlaces {
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-de-navegacion__enlace-item {
+    display: flex;
+    align-items: center;
+}
+
+.menu-de-navegacion__enlace {
+    color: var(--color-texto);
+    text-decoration: none;
+    font-size: var(--tamano-fuente-pequeno);
+}
+
+.menu-de-navegacion__enlace:hover {
+    color: var(--color-hover);
+}
+
+.menu-de-navegacion__icono-busqueda {
+    margin-left: auto;
+}
+
+.menu-de-navegacion__icono-busqueda-imagen {
+    height: var(--altura-icono); 
+}
